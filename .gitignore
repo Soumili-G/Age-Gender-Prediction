@@ -1,0 +1,25 @@
+@'
+# Dataset
+data/*
+!data/.gitkeep
+
+# Trained models
+models/*
+!models/.gitkeep
+
+# Results
+results/*
+!results/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+'@ | Set-Content .gitignore
